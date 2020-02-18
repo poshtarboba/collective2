@@ -56,3 +56,22 @@ section {
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 }
+.wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.box {
+	margin: 0 auto;
+	width: 440px;
+}
+.box-small {
+	font-size: 18px;
+	line-height: 25px;
+}
