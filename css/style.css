@@ -56,3 +56,42 @@ section {
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 }
+
+.button {
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+}
+.button a {
+	display: inline-block;
+	padding: 6px 44px;
+	color: #fff;
+	text-decoration: none;
+	background: #000983;
+	border-radius: 10px;
+}
+
+/* section 1 */
+.section1 {
+	padding-bottom: 24px;
+}
+.section1 .resize {
+	display: flex;
+	flex-direction: column;
+}
+.section1 .resize > * {
+	order: 1;
+}
+.section1 .resize h2 {
+	order: 0;
+}
+.section1 .resize h1 {
+	margin: 0;
+	padding: 32px 0 0;
+}
+.section1 h1 span {
+	color: #0f0;
+}
+.section1 .text {
+	padding-left: 80px;
+}
